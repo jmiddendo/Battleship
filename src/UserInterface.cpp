@@ -409,3 +409,8 @@ void UserInterface::invalidSpot()
 {
     std::cout << "\nPlease enter a valid spot!\n";
 }
+
+void UserInterface::filledSpot()
+{
+    std::cout << "\nPlease select an empty spot!";
+}

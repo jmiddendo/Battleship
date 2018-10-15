@@ -30,6 +30,7 @@ public:
 	void displayShipStatus(char);
 	void displayGameResults(int);
 	void displayPlayerTurn(int);
+	void filledSpot();
 
 private:
 	int mainMenuSize;

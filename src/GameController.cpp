@@ -29,7 +29,7 @@ void GameController::assignShips(int player)
 
 			if (fleets.getBoardSpot(player,points[0],points[1]) != '-')
 			{
-				display.displayDuplicateShot();
+				display.filledSpot();
 				runAgain = true;
 				continue;
 			}
@@ -303,7 +303,8 @@ void GameController::playGame(int &player, bool &start, bool &computer)
 		}
 	}
 
-	system("clear");
+	if (system("cls"))
+        system("clear");
 
 	return;
 }
@@ -334,7 +335,8 @@ void GameController::registerGame(bool& turns, bool& active, int& player)
 
 	assignShips(1);
 
-	system("clear");
+	if (system("cls"))
+        system("clear");
 
 	if (turns)
 	{
@@ -344,7 +346,8 @@ void GameController::registerGame(bool& turns, bool& active, int& player)
 	else
 		assignShips(2);
 
-	system("clear");
+	if (system("cls"))
+        system("clear");
 
 	active = true;
 

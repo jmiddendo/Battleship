@@ -34,21 +34,18 @@
 	<string>
 	<vector>
 
-1539563983 source:/home/jmiddendorf/Documents/GitHubWork/Battleship/main.cpp
-	<iostream>
-	<vector>
-	"BoardGame.h"
-	"UserInterface.h"
+1539568314 source:/home/jmiddendorf/Documents/GitHubWork/Battleship/main.cpp
+	"GameController.h"
 
 1539560737 /home/jmiddendorf/Documents/GitHubWork/Battleship/include/BoardGame.h
 	"Board.h"
 	<vector>
 
-1539557947 /home/jmiddendorf/Documents/GitHubWork/Battleship/include/Board.h
+1539569262 /home/jmiddendorf/Documents/GitHubWork/Battleship/include/Board.h
 	<string>
 	<vector>
 
-1539564571 /home/jmiddendorf/Documents/GitHubWork/Battleship/include/UserInterface.h
+1539569262 /home/jmiddendorf/Documents/GitHubWork/Battleship/include/UserInterface.h
 	<string>
 	<vector>
 
