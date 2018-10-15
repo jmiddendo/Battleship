@@ -1,0 +1,36 @@
+# depslib dependency file v1.0
+1539560911 source:/home/jmiddendorf/Project/BattleshipRedo/main.cpp
+	<iostream>
+	"Board.h"
+	"BoardGame.h"
+
+1539557926 source:/home/jmiddendorf/Project/BattleshipRedo/src/Board.cpp
+	"Board.h"
+
+1539557947 /home/jmiddendorf/Project/BattleshipRedo/include/Board.h
+	<string>
+	<vector>
+
+1539560835 source:/home/jmiddendorf/Project/BattleshipRedo/src/BoardGame.cpp
+	"BoardGame.h"
+	"Board.h"
+	<cstdlib>
+	<ctime>
+	<vector>
+	<iostream>
+
+1539560737 /home/jmiddendorf/Project/BattleshipRedo/include/BoardGame.h
+	"Board.h"
+	<vector>
+
+1539561833 source:/home/jmiddendorf/Project/BattleshipRedo/src/UserInterface.cpp
+	"UserInterface.h"
+	<iostream>
+	<string>
+	<vector>
+	<iomanip>
+
+1539561414 /home/jmiddendorf/Project/BattleshipRedo/include/UserInterface.h
+	<string>
+	<vector>
+
