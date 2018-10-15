@@ -59,8 +59,6 @@ int main()
 
 	} while (userChoice != display.getMainMenuSize());
 
-	system("pause");
-
 	return 0;
 }
 
@@ -90,7 +88,7 @@ void registerGame(bool& turns, bool& active, int& player)
 
 	assignShips(1);
 
-	system("cls");
+	system("clear");
 
 	if (turns)
 	{
@@ -100,7 +98,7 @@ void registerGame(bool& turns, bool& active, int& player)
 	else
 		assignShips(2);
 
-	system("cls");
+	system("clear");
 
 	active = true;
 
@@ -217,9 +215,7 @@ void playGame(int &player, bool &start, bool &computer)
 		}
 	}
 
-	system("pause");
-
-	system("cls");
+	system("clear");
 
 	return;
 }
