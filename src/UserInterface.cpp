@@ -404,3 +404,8 @@ void UserInterface::displayPlayerTurn(int player)
 	std::cout << "It is player " << player << "'s turn..." << std::endl;
 	std::cout << "******************************\n\n";
 }
+
+void UserInterface::invalidSpot()
+{
+    std::cout << "\nPlease enter a valid spot!\n";
+}

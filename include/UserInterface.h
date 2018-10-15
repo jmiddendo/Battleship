@@ -21,6 +21,7 @@ public:
 	std::string queryRestart();
 	void displayBoard(std::vector<std::string>&);
 	void displayBoard(std::string, std::string);
+	void invalidSpot();
 	std::vector<int> queryEntry(std::string);
 	int queryEntry(std::vector<int> possibleEndPoints);
 	std::vector<int> queryFirePoint();
