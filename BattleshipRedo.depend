@@ -41,7 +41,7 @@
 	"Board.h"
 	<vector>
 
-1539569262 /home/jmiddendorf/Documents/GitHubWork/Battleship/include/Board.h
+1539576622 /home/jmiddendorf/Documents/GitHubWork/Battleship/include/Board.h
 	<string>
 	<vector>
 
@@ -49,7 +49,7 @@
 	<string>
 	<vector>
 
-1539557926 source:/home/jmiddendorf/Documents/GitHubWork/Battleship/src/Board.cpp
+1539576693 source:/home/jmiddendorf/Documents/GitHubWork/Battleship/src/Board.cpp
 	"Board.h"
 
 1539560835 source:/home/jmiddendorf/Documents/GitHubWork/Battleship/src/BoardGame.cpp
@@ -60,14 +60,14 @@
 	<vector>
 	<iostream>
 
-1539564671 source:/home/jmiddendorf/Documents/GitHubWork/Battleship/src/UserInterface.cpp
+1539569349 source:/home/jmiddendorf/Documents/GitHubWork/Battleship/src/UserInterface.cpp
 	"UserInterface.h"
 	<iostream>
 	<string>
 	<vector>
 	<iomanip>
 
-1539568295 source:/home/jmiddendorf/Documents/GitHubWork/Battleship/src/GameController.cpp
+1539569349 source:/home/jmiddendorf/Documents/GitHubWork/Battleship/src/GameController.cpp
 	"GameController.h"
 
 1539568236 /home/jmiddendorf/Documents/GitHubWork/Battleship/include/GameController.h
@@ -75,4 +75,17 @@
 	<vector>
 	"BoardGame.h"
 	"UserInterface.h"
+
+1539569549 source:/home/jmiddendorf/Documents/GitHubWork/Battleship/src/ComputerIntelligence.cpp
+	"ComputerIntelligence.h"
+
+1539570274 /home/jmiddendorf/Documents/GitHubWork/Battleship/include/ComputerIntelligence.h
+
+1539576216 source:/home/jmiddendorf/Documents/GitHubWork/Battleship/src/HitPointSearchPattern.cpp
+	"HitPointSearchPattern.h"
+
+1539574860 /home/jmiddendorf/Documents/GitHubWork/Battleship/include/HitPointSearchPattern.h
+	<stack>
+	<map>
+	<utility>
 

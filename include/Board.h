@@ -12,6 +12,7 @@ public:
 	Board(const Board&);
 	bool addShip(int, int, int, int, char);
 	bool checkShipOverlap(int, int, int, int);
+	bool checkHit(int, int);
 	void clearBoard();
 	void copyBoard(const Board&);
 	void displayHit(char, int, int);

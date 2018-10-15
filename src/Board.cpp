@@ -140,6 +140,11 @@ bool Board::checkShipOverlap(int x1, int y1, int x2, int y2)
 	return true;
 }
 
+bool Board::checkHit(int x, int y)
+{
+    return bottomBoard[x][y] != '-';
+}
+
 void Board::displayHit(char sym, int x, int y)
 {
 	topBoard[x][y] = sym;
