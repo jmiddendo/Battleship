@@ -36,16 +36,12 @@
 		</Compiler>
 		<Unit filename="include/Board.h" />
 		<Unit filename="include/BoardGame.h" />
-		<Unit filename="include/ComputerIntelligence.h" />
 		<Unit filename="include/GameController.h" />
-		<Unit filename="include/HitPointSearchPattern.h" />
 		<Unit filename="include/UserInterface.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Board.cpp" />
 		<Unit filename="src/BoardGame.cpp" />
-		<Unit filename="src/ComputerIntelligence.cpp" />
 		<Unit filename="src/GameController.cpp" />
-		<Unit filename="src/HitPointSearchPattern.cpp" />
 		<Unit filename="src/UserInterface.cpp" />
 		<Extensions>
 			<envvars />
