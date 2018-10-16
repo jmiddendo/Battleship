@@ -112,6 +112,11 @@ void GameController::assignShips(int player)
 	}
 }
 
+void GameController::computerTurn()
+{
+
+}
+
 void GameController::displayGameBoard(int player, bool start, bool computer)
 {
     if (!start)

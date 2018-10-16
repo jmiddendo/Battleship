@@ -220,6 +220,7 @@ bool BoardGame::checkShipStatus(char checkValue, int player)
 std::vector<int> BoardGame::autoFire()
 {
 	std::vector<int> retValue = std::vector<int>();
+
 	int x = 0, y = 0;
 
 	x = rand() % 10;

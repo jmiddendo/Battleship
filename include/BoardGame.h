@@ -24,6 +24,7 @@ public:
 private:
 	static const int SIZE = 2;
 	Board listOfBoards[SIZE];
+
 };
 
 #endif
